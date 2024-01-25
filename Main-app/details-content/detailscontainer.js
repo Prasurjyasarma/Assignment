@@ -18,25 +18,25 @@ document.addEventListener("DOMContentLoaded", function () {
   //! Create a container for images
   const imagesContainer = document.createElement("div");
 
-  //! Create and append three image elements with the same URL (consider changing this logic)
+  //! Create and append three image elements with the same URL
   for (let i = 0; i < 4; i++) {
     const detailsImage = document.createElement("img");
     detailsImage.src = productImageUrl;
     imagesContainer.appendChild(detailsImage);
   }
 
-  //! Create and set the title element with age, breed, and location information
+  //! Create and set the title element information
   const ageAndBreedTitle = document.createElement("h2");
   ageAndBreedTitle.textContent = `${productName}`;
 
-  //! Create and set a paragraph element with a description of the dog
+  //! Create and set a paragraph element with a description
   const detailsParagraph = document.createElement("p");
   detailsParagraph.textContent = `${productDetails}`;
-  //! Create and set the title element with the dog's name
+  //! Create and set the title element
   const detailsTitle = document.createElement("h3");
   detailsTitle.textContent = ` Price : $ ${productPrice}`;
 
-  //! Create a button element for adoption
+  //! Create a button element for buy
   const detailsButton = document.createElement("button");
   detailsButton.textContent = "Buy now";
 
