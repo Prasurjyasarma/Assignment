@@ -52,6 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   closeButton.addEventListener("click", () => {
-    window.location.href = "../main-app.html";
+    window.location.href = "../index.html";
   });
 });
