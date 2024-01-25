@@ -56,11 +56,16 @@ a {
   animation: changeBackground 20s infinite;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
 .banner h4 {
-  font-size: 60px;
+  font-size: 90px;
+  color: whitesmoke;
+}
+.banner p {
+  font-size: 20px;
 }
 
 @keyframes changeBackground {
@@ -136,6 +141,14 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .banner h4 {
+    font-size: 60px;
+    color: whitesmoke;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+
   .card {
     padding: 7px;
     margin: 15px;
