@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="main-app.css" />
+    <title>Main App</title>
+  </head>
+  <body>
+    <div id="preloader"></div>
+
+    <div class="banner" data-aos="fade-down">
+      <h4>Buy Now</h4>
+    </div>
+
+    <div class="container">
+      <div class="card-container" id="cardContainer" data-aos="fade-up"></div>
+      <div id="detailsContainer" class="details-container"></div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Company Name. All rights reserved.</p>
+      <p>Contact: info@company.com | Phone: +91 9864747434</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 400,
+      });
+    </script>
+    <script src="main-app.js"></script>
+  </body>
+</html>
